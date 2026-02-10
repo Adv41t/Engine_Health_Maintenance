@@ -7,7 +7,7 @@ The solution uses a Random Forest Classifier to predict engine failure risk base
 ## 📊 Dataset
 The train_FD001_prepared.csv dataset is derived from the NASA CMAPSS (Commercial Modular Aero-Propulsion System Simulation) project. This is a standard benchmark dataset for predictive maintenance.
 
-Bbreakdown of what each sensor represents in a turbofan jet engine:
+Breakdown of what each sensor represents in a turbofan jet engine:
 
 ### 1. Operational Feature
 Cycle: This acts as a timestamp. It represents the number of flights (or operational cycles) the engine has completed. The goal is to predict how many more cycles it can run before it fails (RUL).
